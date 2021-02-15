@@ -54,6 +54,7 @@ Project have 4 main controllers based on entitys
     
 Documentation for Frontend Dev
 2.Medicine
+
   Route("/medicine")
   Have all CRUD methods
       
