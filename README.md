@@ -62,6 +62,13 @@ Documentation for Frontend Dev
     Route("medicine/{id}") use variabele [$medicine] to show data in medicine recived by id
     Route("medicine/{id}") delete medicine by id
     
+    Posible methods for get data 
+    getId/setId
+    getTitle/setTitle
+    getPrice/setPrice
+    getManufacturer/setManufacturer
+    addCurrentSubstanceId/removeCurrentSubstanceId
+    
   Route("/manufacturer")
   Have all CRUD methods
 
@@ -69,6 +76,11 @@ Documentation for Frontend Dev
     Route("manufacturer/new") use variabele [$manufacturer] to create new manufacturer 
     Route("manufacturer/{id}") use variabele [$manufacturer] to show data in manufacturer recived by id
     Route("manufacturer/{id}") delete manufacturer by id
+    
+    Posible methods for get data 
+    getId/setId
+    getTitle/setTitle
+    getUrl/setUrl
 
   Route("/current_substance")
   Have all CRUD methods
@@ -77,3 +89,7 @@ Documentation for Frontend Dev
     Route("current_substance/new") use variabele [$current_substance] to create new current_substance 
     Route("current_substance/{id}") use variabele [$current_substance] to show data in current_substance recived by id
     Route("current_substance/{id}") delete current_substance by id
+    
+    Posible methods for get data 
+    getId/setId
+    getTitle/setTitle
