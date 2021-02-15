@@ -53,27 +53,27 @@ Project have 4 main controllers based on entitys
     have get/set methods for all variables
     
 Documentation for Frontend Dev
-2.Medicine
 
   Route("/medicine")
   Have all CRUD methods
-      
+  
     Route("medicine/") use variabele [$medicines] to get all data in medicine db
     Route("medicine/new") use variabele [$medicine] to create new medicine 
     Route("medicine/{id}") use variabele [$medicine] to show data in medicine recived by id
     Route("medicine/{id}") delete medicine by id
+    
+  Route("/manufacturer")
+  Have all CRUD methods
 
     Route("manufacturer/") use variabele [$manufacturers] to get all data in manufacturers db
     Route("manufacturer/new") use variabele [$manufacturer] to create new manufacturer 
     Route("manufacturer/{id}") use variabele [$manufacturer] to show data in manufacturer recived by id
     Route("manufacturer/{id}") delete manufacturer by id
 
+  Route("/current_substance")
+  Have all CRUD methods
+
     Route("current_substance/") use variabele [$current_substance] to get all data in current_substance db
     Route("current_substance/new") use variabele [$current_substance] to create new current_substance 
     Route("current_substance/{id}") use variabele [$current_substance] to show data in current_substance recived by id
     Route("current_substance/{id}") delete current_substance by id
-    
-  
-
-  
-
