@@ -2,7 +2,7 @@ Documentation for Backend Dev
 
 Symfony 4.22 project  
 
-For strat broject use "php bin/console doctrine:database:create" after "php bin/console doctrine:migrations:migrate" for create database & add tables
+For start broject use "php bin/console doctrine:database:create" after "php bin/console doctrine:migrations:migrate" for create database & add tables
 
 Project have 4 main controllers based on entitys
 
