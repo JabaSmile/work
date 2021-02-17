@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit CurrentSubstance{% endblock %}
+
+{% block body %}
+    <h1>Edit CurrentSubstance</h1>
+
+    {{ include('current_substance/_form.html.twig', {'button_label': 'Update'}) }}
+
+    <a href="{{ path('current_substance_index') }}">back to list</a>
+
+    {{ include('current_substance/_delete_form.html.twig') }}
+{% endblock %}
