@@ -38,5 +38,5 @@ class MedicineTest extends WebTestCase
         $medicine->setManufacturer($manufacturer);
         $this->assertEquals($manufacturer, $medicine->getManufacturer());
     }
-    
+
 }
